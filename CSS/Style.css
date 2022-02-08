@@ -1,0 +1,161 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;900&display=swap');
+
+:root{
+    --ice: #f5f5ff;
+    --gray:#a0a0a0;
+    --dark:#323232;
+    --blue:#6060b1;
+    --blue2: #a8a8eb;
+    --green: #9ddb9d;
+
+
+
+}
+body{
+    background-color: var(--ice);
+    font-family: 'Zen Old Mincho', serif;
+    color: var(--dark);
+}
+
+main{
+    width:100%;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+a:hover{
+    color: var(--blue);
+}
+
+h2{
+    font-size:20px;
+}
+
+.to-top{
+    width:90%;
+    text-align: right;
+    margin: 1%;
+}
+
+.to-top a i{
+    font-size: 2em;
+
+}
+
+.top{
+    width: 95%;
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+
+
+
+.top .btn-menu button:hover{
+    
+    /*background-color: var(--blue);*/
+    transform: scale(1.2);
+    transition: all 2s;
+   
+}
+.welcome{
+    display:inline;
+    
+
+}
+.top.welcome{
+    margin:1%;
+    display: inline-block;
+   
+}
+
+.top.welcome.logo{
+    /* display: inline-block;
+    margin-right: 150px;
+    width:5px;
+    height: 5px; */
+  
+ 
+
+}
+
+
+.imglogo{
+    width:80px;
+    float: right;
+    margin: 3px 0 0 0;
+    
+}
+
+h1{
+    text-align: right;
+    margin-right: 80px;
+
+}
+
+.pmenu{
+    /*margin-left: 150px;*/
+}
+
+
+
+#recrutamento{
+    width: 100%;
+}
+
+.título{
+padding-left: 20px; 
+font-style:normal;
+font-variant:unset;
+}
+/* o padding -left está acrescentando um espaço antes da palavra*/
+
+header{
+    background-color: #CCCCCC;
+    padding: 30px;
+
+}
+h2{ 
+    text-align: center;
+    }
+
+p{ 
+     text-align: center;
+    }
+
+#mais{
+    font-size: 20px;
+}
+
+nav{
+
+}
+
+.menu{
+
+}
+
+.menu .btn-close button:hover{
+    
+    /*background-color: var(--blue);*/
+    transform: scale(1.2);
+    transition: all 2s;
+   
+}
+
+.figure{
+    padding: 400px;
+}
+
+.imagens{
+
+    margin:30px;
+
+}
